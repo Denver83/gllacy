@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>gllacy-catalog</title>
+	    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+	    <link rel="stylesheet" type="text/css" href="css/style.css">
+	   
+	</head>
+	<body class="catalog">
+		<div class="container">
+			<header class="page-header">
+				<nav class="navigation">
+					<div class="logo">
+					    <a class="header-logo"><img src="img/logo.png" width="139" height="71" alt="logo"></a>
+					</div>
+					<ul class="navigation-list">
+					    <li class="navigation-item"><a class="link" href="#">Каталог</a></li>
+					    <li class="navigation-item"><a class="link" href="#">Доставка и оплата</a></li>
+					    <li class="navigation-item"><a class="link" href="#">О Компании</a></li>
+					</ul>
+					<div class="navi-buttons">
+						<div class="button button-search">
+						</div>
+						<div class="button button-enter">Вход</div>
+						<div class="button button-basket basket-catalog">2 товара</div>  
+					</div> 
+					<div class="basket-popup">
+						<div class="basket">
+							<p class="basket-item orange">Пломбир с апельсиновым джемом</p>
+							<span>1,5 кг х 200 руб.</span>
+							<span>300 руб.</span>
+						</div>
+						<div class="basket">
+							<p class="basket-item strawberry">Клубничный пломбир с присыпкой из белого шоколада</p>
+							<span>1,5 кг х 300 руб.</span>
+							<span>450 руб.</span>
+						</div>
+						<div class="price">
+							<p>Итого:<span>750р</span></p>
+							<a class="btn" href="#">Оформить заказ</a>
+						</div>
+					</div>
+				</nav>
+				<div class="mode">
+					<p>С 10 до 20, ежедневно</p>
+					<p>8 812 450-25-25</p>
+				</div>
+			</header>
+		</div>
+			<main>
+				<div class="container">
+				<div class="bread-crumbs">
+					<a href="#" class="crumbs-item">Главная</a>
+					<span>»</span>
+					<a href="#" class="crumbs-item">Каталог</a>
+					<span>»</span>
+					<a href="#" class="crumbs-item">Сливочное</a>
+				</div>
+
+				<form action="#" class="select-sorting">
+					<h1 class="sorting-title">Сливочное мороженое</h1>
+					<div class="selection">
+						<p>Сортировка:</p>
+						<p class="select-item">по популярности</p>
+					</div>
+					<div class="popup-sorting">
+						<p class="popup-item">по популярности</p>
+						<p class="popup-item">сначала недорогие</p>
+						<p class="popup-item">сначала дорогие</p>
+						<p class="popup-item">по жирности</p>
+					</div>
+					<div class="range-block">
+						<p>Цена: 100 руб. – 500 руб.</p>
+						<div class="range">
+							<div class="range-line">
+								<div class="range-scale"></div>
+						</div>
+							<div class="range-btn range-btn-min"></div>
+							<div class="range-btn range-btn-max"></div>
+						</div>
+					</div>
+					<div class="radio-block">
+						<p>Жирность:</p>
+						<div class="filter-radio">
+							<input type="radio" id="percent0" name="percent">
+							<label for="percent0">0%</label>
+								
+							<input type="radio" id="percent10" name="percent">
+							<label for="percent10">До 10%</label>
+
+							<input type="radio" id="percent30" name="percent">
+							<label for="percent30">до30%</label>
+								
+							<input type="radio" id="percent40" name="percent">
+							<label for="percent40">выше 30%</label>
+						</div>
+					</div>
+					<div class="filter-box">
+						<input type="checkbox" id="chocolate" name="chocolate" checked>
+						<label for="chocolate">Шоколадные</label>
+							
+						<input type="checkbox" id="sugar" name="sugar" checked>
+						<label class="sugar" for="sugar">Сахарные присыпки</label>
+							
+						<input type="checkbox" id="fruits" name="fruits">
+						<label for="fruits">Фрукты</label>
+
+						<input type="checkbox" id="sirop" name="sirop">
+						<label for="sirop">Сиропы</label>
+							
+						<input type="checkbox" id="jam" name="jam">
+						<label for="jam">Джемы</label>
+					</div>
+					<input type="submit" value="Применить"> 
+				</form>
+				<section class="assortment">
+					<h2 class="visually-hidden">Ассортимент</h2>
+					<div class="hit jam">
+						<p class="hit-coast">310</p>
+						<div class="hit-links">
+							<a href="#" class="link">Сливочное с апельсиновым </a>
+							<a href="#" class="link">джемом и цитрусовой стружкой</a>
+							<a class="btn hidden-btn" href="#">Быстрый просмотр</a>
+						</div>
+					</div>
+					<div class="hit coffee">
+						<p class="hit-coast">380</p>
+						<div class="hit-links">
+							<a href="#" class="link">Сливочно-кофейное с кусочками</a>
+							<a href="#" class="link">шоколада</a>
+							<a class="btn hidden-btn" href="#">Быстрый просмотр</a>
+					 	</div>
+					</div>
+					<div class="hit choco">
+						<p class="hit-coast">355</p>
+						<div class="hit-links">
+							<a href="#" class="link">Сливочно-клубничное с </a>
+							<a href="#" class="link">присыпкой из белого шоколада</a>
+							<a class="btn hidden-btn" href="#">Быстрый просмотр</a>
+						</div>
+					</div>
+					<div class="hit caramel">
+						<p class="hit-coast">415</p>
+						<div class="hit-links">
+							<a href="#" class="link">Сливочное крем-брюле с</a>
+							<a href="#" class="link">карамельной подливкой</a>
+							<a class="btn hidden-btn" href="#">Быстрый просмотр</a>
+						</div>
+					</div>
+				
+				<div class="hit berry">
+						<p class="hit-coast">310</p>
+						<div class="hit-links wrap">
+							<a href="#" class="link">Сливочное с брусничным</a>
+							<a href="#" class="link">джемом</a>
+							<a class="btn hidden-btn" href="#">Быстрый просмотр</a>
+						</div>
+					</div>
+					<div class="hit blueberry">
+						<p class="hit-coast">415</p>
+						<div class="hit-links">
+							<a href="#" class="link">Сливочное-черничное с цельными</a>
+							<a href="#" class="link">ягодами черники</a>
+							<a class="btn hidden-btn" href="#">Быстрый просмотр</a>
+						</div>
+					</div>
+					<div class="hit lemon">
+						<p class="hit-coast">380</p>
+						<div class="hit-links">
+							<a href="#" class="link">Сливочно-лимонное с </a>
+							<a href="#" class="link">карамельной присыпкой</a>
+							<a class="btn hidden-btn" href="#">Быстрый просмотр</a>
+					 	</div>
+					</div>
+					<div class="hit chocolate">
+						<p class="hit-coast">355</p>
+						<div class="hit-links">
+							<a href="#" class="link">Сливочно-клубничное с </a>
+							<a href="#" class="link">присыпкой из белого шоколада</a>
+							<a class="btn hidden-btn" href="#">Быстрый просмотр</a>
+						</div>
+					</div>
+				
+				
+				<div class="hit vanilla">
+						<p class="hit-coast">310</p>
+						<div class="hit-links">
+							<p class="link">Сливочное-ванильное с</p>
+							<p class="link">кусочками шоколада</p>
+							<a class="btn hidden-btn" href="#">Быстрый просмотр</a>
+						</div>
+					</div>
+					<div class="hit menthol">
+						<p class="hit-coast">380</p>
+						<div class="hit-links wrap">
+							<a href="#" class="link">Сливочное с ментоловым</a>
+							<a href="#" class="link">сиропом</a>
+							<a class="btn hidden-btn" href="#">Быстрый просмотр</a>
+					 	</div>
+					</div>
+					<div class="hit choco-black">
+						<p class="hit-coast">355</p>
+						<div class="hit-links">
+							<a href="#" class="link">Сливочное с кусочками черного </a>
+							<a href="#" class="link">шоколада</a>
+							<a class="btn hidden-btn" href="#">Быстрый просмотр</a>
+						</div>
+					</div>
+					<div class="hit mint">
+						<p class="hit-coast">415</p>
+						<div class="hit-links">
+							<a href="#" class="link">Сливочное с мятным сиропом</a>
+							<a class="btn hidden-btn" href="#">Быстрый просмотр</a>
+							
+						</div>
+					</div>
+				
+				</section>
+				<div class="paginator">
+					<button class="arrow arrow-left"></button>
+					<a href="#" class="checked-page">1</a>
+					<a href="#" class="page">2</a>
+					<a href="#" class="page">3</a>
+					<a href="#" class="page">4</a>
+					<a href="#" class="page">5</a>
+					<button class=" arrow arrow-right"></button>
+				</div>
+			</div>
+			</main>
+			<footer class="page-footer">
+				<div class="container footer-catalog">
+					<div class="socials">
+						<a href="#" class="social-link twitter"><span class="visually-hidden">twitter</span></a>
+						<a href="#" class="social-link instagram"><span class="visually-hidden">instagram</span></a>
+						<a href="#" class="social-link facebook"><span class="visually-hidden">facebook</span></a>
+						<a href="#" class="social-link vk"><span class="visually-hidden">vk</span></a>
+					</div>
+					<div class="footer-links">
+						<div class="first-links-block">
+							<a href="">Для поставщиков</a>
+							<a href="">О производстве</a>
+						</div>
+						<div class="second-links-block">
+							<a href="">Наши документы</a>
+							<a href="">Экологические стандарты</a>
+						</div>
+					</div>
+					<div class="copyright">
+						<p>Сделано в <a href="#">HTML Academy</a> © 2017</p>
+					</div>
+				</div>
+			</footer>
+			<script src="js/script.js"></script>
+		</body>
+	</html>
